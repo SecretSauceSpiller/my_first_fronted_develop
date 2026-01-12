@@ -14,11 +14,12 @@ SecretSauceSpiller – 2026
 
 - Simple **header, main content, and footer** layout
 - A **button** that opens an alert in popup
+- CSS styling - makes my website beautiful :)
 
 
 Next step:
-	Learn to add CSS styling
- 
+	I want to add a custom logo to make the site professional.
+	
 
 ## Usage
 
