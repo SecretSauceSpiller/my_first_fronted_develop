@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>My Little Website</title>
     <style>
-        /* same CSS as v3 plus logo animation */
         body {
             font-family: Arial, sans-serif;
-            background-color: #eef2f5;
             margin: 0;
             padding: 0;
+            background-color: #eef2f5;
         }
 
         header {
             background-color: #4a90e2;
             color: white;
-            text-align: center;
             padding: 20px;
+            text-align: center;
         }
 
         main {
@@ -25,9 +24,19 @@
             margin: auto;
         }
 
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
         .box {
             background-color: white;
             padding: 20px;
+            margin-top: 20px;
             border-radius: 6px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
@@ -56,40 +65,47 @@
             color: #444;
         }
 
-        /* Spinning logo */
+        /* 🔵 Spinning logo */
         .logo {
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            width: 50px;
-            height: 50px;
-            background-color: #172DEB;
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 18px;
-            animation: spin 7s linear infinite;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-            text-decoration: none;
-        }
+			position: fixed;
+			top: 15px;
+			left: 15px;
+			width: 50px;
+			height: 50px;
+			background-color: #172DEB;
+			color: white;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-weight: bold;
+			font-size: 18px;
+			animation: spin 7s linear infinite;
+			box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+			text-decoration: none; /* remove link underline */
+		}
 
-        .logo:hover {
-            background-color: #2237FC;
-        }
+		.logo:hover {
+			background-color: #2237FC;
+		}
+
 
         @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
         }
     </style>
 </head>
 <body>
 
     <!-- Logo -->
-    <div class="logo">S</div>
+	<a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" class="logo">
+		S
+	</a>
 
     <header>
         <h1>My Website</h1>
@@ -99,12 +115,20 @@
     <main>
         <div class="box">
             <h2>Hello</h2>
-            <p>This is a small website I made while learning HTML and CSS. It’s nothing fancy, but it works and I’m proud of it 🙂</p>
+            <p>
+                This is a small website I made while learning HTML and CSS.
+                It’s nothing fancy, but it works and I’m proud of it 🙂
+            </p>
 
             <h2>Stuff</h2>
-            <p>I’m still learning how websites work. Next I want to add more pages and maybe some JavaScript.</p>
+            <p>
+                I’m still learning how websites work.
+                Next I want to add more pages and maybe some JavaScript.
+            </p>
 
-			<button onclick="alert('Wowwwwww!')">Click Me</button>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <button>Click here</button>
+            </a>
         </div>
     </main>
 

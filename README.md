@@ -13,14 +13,13 @@ SecretSauceSpiller – 2026
 ## Features
 
 - Simple **header, main content, and footer** layout
-- A **button** that opens an alert in popup
+- A **button** that opens a url.
 - CSS styling - makes my website beautiful :)
-- A **spinning, clickable logo** in the top-left corner
-
+- A **spinning, clickable logo** in the top-left corner, clickabl.
 
 
 Next step:
-	Replace the urls, and the site is ready!.
+	The site is perfect:)) For next time - I need to remember better work with git branches ^-^.
 	
 
 ## Usage
