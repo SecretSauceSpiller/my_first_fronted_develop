@@ -10,9 +10,16 @@ SecretSauceSpiller – 2026
 
 ---
 
+## Features
+
+- Simple **header, main content, and footer** layout
+
+Next step:
+	Learn to add button
+
+
 ## Usage
 
-1. **Clone or download** the repository:
-   bash:
-   git clone https://github.com/SecretSauceSpiller/my_first_fronted_develop.git
-   
+**Clone or download** the repository: 
+bash:
+git clone https://github.com/SecretSauceSpiller/my_first_fronted_develop.git
