@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>My Little Website</title>
     <style>
+        /* same CSS as v3 plus logo animation */
         body {
             font-family: Arial, sans-serif;
             background-color: #eef2f5;
@@ -54,9 +55,41 @@
             font-size: 14px;
             color: #444;
         }
+
+        /* Spinning logo */
+        .logo {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            width: 50px;
+            height: 50px;
+            background-color: #172DEB;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            animation: spin 7s linear infinite;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            text-decoration: none;
+        }
+
+        .logo:hover {
+            background-color: #2237FC;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
+
+    <!-- Logo -->
+    <div class="logo">S</div>
 
     <header>
         <h1>My Website</h1>
