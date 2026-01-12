@@ -13,9 +13,11 @@ SecretSauceSpiller – 2026
 ## Features
 
 - Simple **header, main content, and footer** layout
+- A **button** that opens an alert in popup
+
 
 Next step:
-	Learn to add button
+	Learn to add CSS styling
  
 
 ## Usage
